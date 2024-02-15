@@ -78,6 +78,27 @@ nav li a {
         flex-direction: column;
     }
 }
+/*    main section syles */
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 140px;
+}
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 100%;
+}
+
+
+
+
+
 
 /* medium devices */
 @media screen and (max-width:999px) and (min-width:576px) {
