@@ -6,6 +6,11 @@
      font-family: "Work Sans", sans-serif;
    
 }
+.title{
+    font-size:  2.8 rem;
+    font-weight: 700;
+    color: #131313;
+}
 
 .btn-primary {
     border-radius: 8px;
@@ -32,11 +37,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    font-size:  2.8 rem;
-    font-weight: 700;
-    color: #131313;
-}
+
 nav> ul {
     display: flex;
 }
@@ -101,6 +102,21 @@ main {
 .features-title .feature {
     color: #ff900e;
     font-weight: 700;
+}
+
+
+
+/*fact styles */
+.record {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 140px;
+}
+
+.record .item {
+    border: 1px solid rgb(167, 145, 141);
+    align-items: center;
+    justify-content: center;
 }
 
 /*for respnsive styles */
