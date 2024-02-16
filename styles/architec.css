@@ -103,8 +103,47 @@ main {
     color: #ff900e;
     font-weight: 700;
 }
+/* service styles */
+.service-container {
+    display: flex;
+    margin-top:140px;
+    gap: 100px;
+}
+.service-content .title {
+    border-left: 5px solid #ff900e;
+    padding: 20px;
+}
+ .card {
 
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.06);
+}
 
+.badge {
+    border-radius: 8px;
+    background: #ff900e;
+    color: white;
+    width: 342px;
+    padding:40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.badge h2 {
+    font-size:  4rem;
+    margin: 0px;
+
+}
+.badge p {
+    font-size: 1.5rem;
+}
+.service-img img {
+    height: 90%;
+    margin-left: 90px;
+}
 
 /*fact styles */
 .fact-container {
@@ -121,18 +160,16 @@ main {
 }
 
 .record .item {
-    border: 1px solid rgb(167, 145, 141);
+    border: 1px solid #ff900e;
     align-items: center;
     justify-content: center;
-    padding: 10px 10px;
-    box-shadow: 5px 5px lightblue;
+    padding: 30px 30px;
+    border-radius: 8px;
 }
 .item {
     text-align: center;
 }
-.sponsor-container {
-    margin-top: 50px;
-}
+
 
 
 .sponsor-content  {
@@ -140,12 +177,16 @@ main {
 }
 
 .sponsor-partner {
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 50px;
+   
+   
     
 }
+
+
 
 
 /* footer styles */
@@ -163,11 +204,19 @@ footer {
     header {
         padding: 20px;
     }
-    nav, .feature-container ,.sponsor-partner, .record{
+    nav, .feature-container ,.sponsor-partner, .record , .service-container 
+    {
         flex-direction: column;
     }
     .feature-img {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .service-img img {
+        width: 90%;
+        margin: 0px;
+    }
+    .badge {
+        max-width: 300px;
     }
     .feature-content {
         padding-right: 20px;
@@ -189,7 +238,8 @@ footer {
     header {
         padding: 50px;
      }
-     nav, .feature-container , .sponsor-partner, .record{
+     nav, .feature-container , .sponsor-partner, .record, .service-container
+     {
          flex-direction: column;
  
      }
@@ -203,5 +253,7 @@ footer {
         padding: 50px;
         text-align: center;
     }
-    
+    .service-container{
+        text-align: center;
+    }
  }
