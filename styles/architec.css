@@ -107,6 +107,13 @@ main {
 
 
 /*fact styles */
+.fact-container {
+    margin-top: 50px;
+}
+
+.fact-content {
+    margin-left: 100px;
+}
 .record {
     display: flex;
     justify-content: space-around;
@@ -117,7 +124,29 @@ main {
     border: 1px solid rgb(167, 145, 141);
     align-items: center;
     justify-content: center;
+    padding: 10px 10px;
+    box-shadow: 5px 5px lightblue;
 }
+.item {
+    text-align: center;
+}
+.sponsor-container {
+    margin-top: 50px;
+}
+
+
+.sponsor-content  {
+    text-align: center;
+}
+
+.sponsor-partner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
 
 /*for respnsive styles */
 @media screen and (max-width:576px) {
