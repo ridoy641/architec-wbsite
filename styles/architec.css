@@ -199,5 +199,9 @@ footer {
     .sponsor-container {
        margin-left: 50px;
     }
+    footer {
+        padding: 50px;
+        text-align: center;
+    }
     
  }
